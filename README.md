@@ -18,6 +18,7 @@ The purpose of this cli is to be able to create parse dashboard links, in the te
 2. cd dashboard-link-opener
 3. npm install
 4. npm install -g .
+5. restart the terminal
 
 ### Valid constraints
 'exists',
