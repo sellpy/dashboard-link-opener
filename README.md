@@ -35,9 +35,13 @@ The purpose of this cli is to be able to create parse dashboard links, in the te
 The formula to write a parse dashboard query is as following
 $className $field $constraint $compareTo
 
+
 $classname being the table you want to query.
+
 $field being the field you want to compare things to.
+
 $constraint being the logical comparator you wish to use.
+
 $compareTo being the value you are comparing the field to. 
 
 After completing all the steps in Installing, to use the program you can simply type
