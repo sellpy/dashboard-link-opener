@@ -51,7 +51,6 @@ const encodeFilter = ({field, constraint, compareTo}) => encodeURIComponent(JSON
 const buildFilters = ({field, constraint, compareTo}) => {
   if (field.includes('p_')) {
     field = field.split('p_')[1]
-    console.log({field})
     const pointerCompare = {__type: 'Pointer', className: upperCaseClassName(field), objectId: compareTo}
     return encodeFilter({field, constraint, compareTo: pointerCompare})
   }

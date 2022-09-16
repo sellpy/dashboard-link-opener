@@ -48,5 +48,10 @@ After completing all the steps in Installing, to use the program you can simply 
 1. dash user email eq [insert-your-email-here]
 2. press enter
 
+## How to query for Pointers
+dash Order p_payment eq 7xyb8SV89j
+If you want to compare to pointers, lets say, a order that has the payment of id 7xyb8SV89j
+
+
 ## Sponsors
 I will leave a link to my bitcoin address on demand if anyone wishes to gift some internet coins. 
