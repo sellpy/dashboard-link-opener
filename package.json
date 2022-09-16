@@ -1,0 +1,17 @@
+{
+  "name": "dash",
+  "version": "1.0.0",
+  "description": "parse dashboard cli",
+  "main": "bin/index.js",
+  "bin": {
+    "dash": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "peterheinum",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^8.4.0"
+  }
+}
