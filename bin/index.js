@@ -4,7 +4,6 @@ const openUrl = require('open')
 const [_, __, className, field, constraint, compareTo] = process.argv
 const BASE_URL = 'https://dashboard.sellpy.net/apps/Sellpy%20Prod%20-%20Read%20Only/browser'
 
-if (!constraint) console.log(`${BASE_URL}/${className}`)
 const capitalizeFirstLetter = ([a, ...str]) => a.toUpperCase() + str.join('')
 
 const idIntoObjId = field => (field) === 'id' ? 'objectId' : field
@@ -70,4 +69,5 @@ const main = (_className, _field, constraint, _compareTo) => {
   return openUrl(`${BASE_URL}/${className}?filters=${buildFilters({field, constraint, compareTo})}`)
 }
 
+if (!field) return openUrl(`${BASE_URL}/${upperCaseClassName(className)}`)
 main(className, field, constraint, compareTo)
