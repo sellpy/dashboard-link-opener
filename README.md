@@ -49,10 +49,18 @@ After completing all the steps in Installing, to use the program you can simply 
 1. dash user email eq [insert-your-email-here]
 2. press enter
 
+## Dash paths
+dash points to production-readonly parse
+dashd points to dev parse
+dashp points to production parse (careful!)
+
 ## How to query for Pointers
 dash Order p_payment eq 7xyb8SV89j
 If you want to compare to pointers, lets say, a order that has the payment of id 7xyb8SV89j
 
+## Shorthand for id eq
+If you need to look at a specific object id in a collection, you don't need to specify 'id eq', example:
+dash payment 7xyb8SV89j
 
 ## Sponsors
 I will leave a link to my bitcoin address on demand if anyone wishes to gift some internet coins. 
