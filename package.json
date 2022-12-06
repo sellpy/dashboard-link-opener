@@ -7,7 +7,8 @@
     "dash": "./bin/index.js",
     "dashd": "./bin/indexd.js",
     "dashp": "./bin/indexp.js",
-    "paper": "./bin/paper.js"
+    "paper": "./bin/paper.js",
+    "repo": "./bin/repo.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
