@@ -64,15 +64,15 @@ You are able to skip the `id eq` part though if you supply a 10 character object
 
 ### Valid constraints
 
-* `exists`,
-* `dne`,
-* `eq`,
-* `neq`,
-* `starts`,
-* `ends`,
-* `stringContainsString`,
-* `unique`,
-* `before`,
+* `exists`
+* `dne`
+* `eq`
+* `neq`
+* `starts`
+* `ends`
+* `stringContainsString`
+* `unique`
+* `before`
 * `after`
 
 
