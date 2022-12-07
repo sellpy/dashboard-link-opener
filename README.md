@@ -28,7 +28,7 @@ We currently support 3 different shortcut sections:
 
 # Parse dashboard
 
-To obtain a parse dashboard link you need to write one of the 3 Parse dashboard commands depending on what environment you want to end up in, and supplying a query.
+To obtain a parse dashboard link you need to write one of the 3 Parse dashboard commands depending on what environment you want to end up in, and supply a query.
 
 ### Paths
 
