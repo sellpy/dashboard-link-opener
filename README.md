@@ -97,7 +97,7 @@ To obtain a github link, you need to supply which repository you are interested 
 
 `repo $repository $section`
 
-`$repository` is the url slug for the specific repository. For example to get to https://github.com/sellpy/parsoku-dashboard you use the key `parsoku-dashboard` as `$repository`
+`$repository` is the url slug for the specific repository. For example to get to https://github.com/sellpy/parse-dashboard you use the key `parse-dashboard` as `$repository`
 
 `$section` is optional, but here you might suppyl if you want to visit a specific section of a repository, for example to visit the pull request section of a repo, use `pulls` as `$section`. If you're interested in which sections are available, explore github and find the `$section` key in the urls, for example `pulls` in this url: https://github.com/sellpy/parsoku/pulls
 
